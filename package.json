@@ -1,0 +1,35 @@
+{
+  "name": "swapper",
+  "version": "1.0.26",
+  "description": "Dex API endpoints and Token Swap library for Web3 applications",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "web3",
+    "dex",
+    "dapp",
+    "wallet",
+    "swapper",
+    "api"
+  ],
+  "author": "swapper",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "web3": "^1.8.1"
+  },
+  "repository": {
+    "type": "http",
+    "url": "https://github.com/swapper/swapper"
+  },
+  "bugs": "https://github.com/swapper/swapper/issues",
+  "homepage": "https://github.com/swapper/swapper#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
